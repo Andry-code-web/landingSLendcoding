@@ -1,0 +1,442 @@
+{
+  "landing": {
+    "id": "landing",
+    "name": "Landing Page",
+    "tagline": "Diseñada para vender",
+    "icon": "ph-browsers",
+    "tag": "Páginas web",
+    "description": "Demos de landing pages que hemos desarrollado para negocios reales en Arequipa. Cada una optimizada para convertir visitantes en clientes.",
+    "color": "#0ea5e9",
+    "demos": [
+      {
+        "id": "landing-restaurante",
+        "title": "La Leña – Restaurante Arequipeño",
+        "description": "Landing page para restaurante con menú digital, reservas online e integración con WhatsApp. Logró +60% más reservas en el primer mes.",
+        "tags": [
+          "Restaurante",
+          "WhatsApp",
+          "Menú digital"
+        ],
+        "stats": [
+          {
+            "label": "Más reservas",
+            "value": "+60%"
+          },
+          {
+            "label": "Tiempo de carga",
+            "value": "<2s"
+          },
+          {
+            "label": "Conversión",
+            "value": "12%"
+          }
+        ],
+        "features": [
+          "Diseño visual con fotos del local y platos",
+          "Botón de reserva directo a WhatsApp",
+          "Menú en formato visual con precios",
+          "Optimizado para Google (SEO local)",
+          "100% responsive en móviles"
+        ],
+        "demoUrl": "https://barber-dem.netlify.app/",
+        "badge": "Caso real"
+      },
+      {
+        "id": "landing-clinica",
+        "title": "Clínica DentPlus",
+        "description": "Landing para clínica dental con formulario de citas, precios transparentes y galería de resultados. Posicionada #1 en Google para 'dentista Arequipa'.",
+        "tags": [
+          "Salud",
+          "Formulario",
+          "SEO"
+        ],
+        "stats": [
+          {
+            "label": "Posición Google",
+            "value": "#1"
+          },
+          {
+            "label": "Citas/mes",
+            "value": "+45"
+          },
+          {
+            "label": "Leads captados",
+            "value": "+80%"
+          }
+        ],
+        "features": [
+          "Formulario de agendado de citas",
+          "Galería antes / después",
+          "Sección de precios y tratamientos",
+          "Chat de WhatsApp flotante",
+          "Google Maps integrado"
+        ],
+        "demoUrl": "",
+        "badge": "Caso real"
+      },
+      {
+        "id": "landing-gym",
+        "title": "PowerFit Gym",
+        "description": "Landing page dinámica para gimnasio con planes de membresía, clases grupales y promociones especiales. Diseño oscuro y energético.",
+        "tags": [
+          "Fitness",
+          "Planes",
+          "Animaciones"
+        ],
+        "stats": [
+          {
+            "label": "Nuevos socios",
+            "value": "+35/mes"
+          },
+          {
+            "label": "Tasa de conversión",
+            "value": "9%"
+          },
+          {
+            "label": "Visitas/mes",
+            "value": "+1,200"
+          }
+        ],
+        "features": [
+          "Planes de membresía con precios",
+          "Galería de instalaciones",
+          "Horarios de clases grupales",
+          "Contador de oferta limitada",
+          "Testimonios de clientes"
+        ],
+        "demoUrl": "",
+        "badge": "Demo"
+      }
+    ]
+  },
+  "crm": {
+    "id": "crm",
+    "name": "CRM a medida",
+    "tagline": "Organiza y cierra más ventas",
+    "icon": "ph-kanban",
+    "tag": "Sistemas",
+    "description": "Sistemas CRM personalizados que desarrollamos para negocios locales. Cada uno construido desde cero según las necesidades específicas del cliente.",
+    "color": "#8b5cf6",
+    "demos": [
+      {
+        "id": "crm-inmobiliaria",
+        "title": "CRM Inmobiliaria Andina",
+        "description": "CRM para seguimiento de propiedades, clientes interesados y cierres de contratos. El equipo de ventas triplicó su productividad.",
+        "tags": [
+          "Inmobiliaria",
+          "Pipeline",
+          "Reportes"
+        ],
+        "stats": [
+          {
+            "label": "Productividad",
+            "value": "×3"
+          },
+          {
+            "label": "Tiempo de cierre",
+            "value": "-40%"
+          },
+          {
+            "label": "Leads gestionados",
+            "value": "+200/mes"
+          }
+        ],
+        "features": [
+          "Panel kanban de oportunidades",
+          "Ficha completa de cada propiedad",
+          "Seguimiento automático por etapas",
+          "Reportes de ventas semanales",
+          "Historial de interacciones"
+        ],
+        "demoUrl": "",
+        "badge": "Caso real"
+      },
+      {
+        "id": "crm-academia",
+        "title": "CRM Academia Horizonte",
+        "description": "CRM para academia de idiomas: inscripciones, seguimiento de alumnos, pagos y asistencia. Eliminó el Excel y los errores manuales.",
+        "tags": [
+          "Educación",
+          "Alumnos",
+          "Pagos"
+        ],
+        "stats": [
+          {
+            "label": "Tiempo admin",
+            "value": "-70%"
+          },
+          {
+            "label": "Mora reducida",
+            "value": "-50%"
+          },
+          {
+            "label": "Alumnos activos",
+            "value": "+150"
+          }
+        ],
+        "features": [
+          "Gestión de inscripciones y renovaciones",
+          "Control de pagos y cuotas",
+          "Registro de asistencia",
+          "Alertas automáticas de vencimientos",
+          "Reportes por profesor y grupo"
+        ],
+        "demoUrl": "",
+        "badge": "Caso real"
+      },
+      {
+        "id": "crm-ferreteria",
+        "title": "CRM Ferretería Villanueva",
+        "description": "CRM enfocado en clientes frecuentes, control de pedidos por mayor y seguimiento de cotizaciones. Adaptado al rubro de ferretería.",
+        "tags": [
+          "Retail",
+          "Pedidos",
+          "Clientes B2B"
+        ],
+        "stats": [
+          {
+            "label": "Ventas B2B",
+            "value": "+S/.80K"
+          },
+          {
+            "label": "Seguimiento leads",
+            "value": "100%"
+          },
+          {
+            "label": "Clientes registrados",
+            "value": "+300"
+          }
+        ],
+        "features": [
+          "Cotizaciones digitales con PDF",
+          "Seguimiento de pedidos por mayor",
+          "Historial de compras por cliente",
+          "Recordatorios de seguimiento",
+          "Dashboard de ventas en tiempo real"
+        ],
+        "demoUrl": "",
+        "badge": "Caso real"
+      }
+    ]
+  },
+  "web": {
+    "id": "web",
+    "name": "Página Web Corporativa",
+    "tagline": "Tu empresa en internet 24/7",
+    "icon": "ph-globe",
+    "tag": "Páginas web",
+    "description": "Páginas web corporativas completas con múltiples secciones, posicionamiento SEO y panel de administración incluido.",
+    "color": "#10b981",
+    "demos": [
+      {
+        "id": "web-constructora",
+        "title": "Constructora Andes Sur",
+        "description": "Web corporativa con portafolio de proyectos, equipo, licitaciones y contacto. Posicionada en los primeros resultados de Google para obras en Arequipa.",
+        "tags": [
+          "Construcción",
+          "Portafolio",
+          "SEO"
+        ],
+        "stats": [
+          {
+            "label": "Posición Google",
+            "value": "Top 3"
+          },
+          {
+            "label": "Visitas/mes",
+            "value": "+2,000"
+          },
+          {
+            "label": "Consultas/mes",
+            "value": "+25"
+          }
+        ],
+        "features": [
+          "Portafolio de proyectos con galería",
+          "Sección de equipo y empresa",
+          "Blog con artículos de construcción",
+          "Formulario de cotización de obras",
+          "Panel de administración propio"
+        ],
+        "demoUrl": "",
+        "badge": "Caso real"
+      },
+      {
+        "id": "web-juridica",
+        "title": "Estudio Jurídico Montoya & Asociados",
+        "description": "Web corporativa para estudio de abogados con áreas de práctica, equipo legal, noticias legales y consulta online.",
+        "tags": [
+          "Legal",
+          "Profesional",
+          "Blog"
+        ],
+        "stats": [
+          {
+            "label": "Consultas online",
+            "value": "+30/mes"
+          },
+          {
+            "label": "Tiempo en web",
+            "value": "+3 min"
+          },
+          {
+            "label": "Tasa de rebote",
+            "value": "-35%"
+          }
+        ],
+        "features": [
+          "Áreas de práctica detalladas",
+          "Perfil de cada abogado del equipo",
+          "Blog de noticias legales",
+          "Consulta online con formulario",
+          "Mapa de ubicación y horarios"
+        ],
+        "demoUrl": "",
+        "badge": "Demo"
+      },
+      {
+        "id": "web-exportadora",
+        "title": "Exportadora Alpaca Premium",
+        "description": "Web corporativa bilingüe (ES/EN) para empresa exportadora de textiles. Catálogo de productos, certificaciones y contacto internacional.",
+        "tags": [
+          "Exportación",
+          "Bilingüe",
+          "Catálogo"
+        ],
+        "stats": [
+          {
+            "label": "Países alcanzados",
+            "value": "+12"
+          },
+          {
+            "label": "Consultas int.",
+            "value": "+15/mes"
+          },
+          {
+            "label": "Idiomas",
+            "value": "ES / EN"
+          }
+        ],
+        "features": [
+          "Sitio bilingüe español / inglés",
+          "Catálogo de productos con filtros",
+          "Sección de certificaciones",
+          "Formulario de contacto internacional",
+          "Optimizado para compradores extranjeros"
+        ],
+        "demoUrl": "",
+        "badge": "Demo"
+      }
+    ]
+  },
+  "asesoria": {
+    "id": "asesoria",
+    "name": "Asesoría Digital",
+    "tagline": "Mejora tu presencia online",
+    "icon": "ph-chalkboard-teacher",
+    "tag": "Consultoría",
+    "description": "Ejemplos de planes de acción que entregamos tras nuestras asesorías digitales. Cada plan es personalizado y orientado a resultados medibles.",
+    "color": "#f59e0b",
+    "demos": [
+      {
+        "id": "asesoria-restaurante",
+        "title": "Auditoría Digital – Restaurante El Mirador",
+        "description": "Análisis completo de presencia digital: web, redes sociales y Google My Business. Se detectaron 12 oportunidades de mejora críticas.",
+        "tags": [
+          "Auditoría",
+          "Redes Sociales",
+          "Google"
+        ],
+        "stats": [
+          {
+            "label": "Oportunidades detectadas",
+            "value": "12"
+          },
+          {
+            "label": "Mejora en visibilidad",
+            "value": "+80%"
+          },
+          {
+            "label": "ROI estimado",
+            "value": "×4"
+          }
+        ],
+        "features": [
+          "Análisis de posicionamiento SEO actual",
+          "Revisión de perfil de Google My Business",
+          "Auditoría de redes sociales",
+          "Análisis de competencia local",
+          "Plan de mejoras priorizado en 90 días"
+        ],
+        "demoUrl": "",
+        "badge": "Caso real"
+      },
+      {
+        "id": "asesoria-tienda",
+        "title": "Plan Digital – Tienda de Ropa Moda Andina",
+        "description": "Estrategia digital completa para tienda de ropa: web, Instagram, TikTok y WhatsApp Business. Implementación en 3 meses.",
+        "tags": [
+          "E-commerce",
+          "Instagram",
+          "WhatsApp"
+        ],
+        "stats": [
+          {
+            "label": "Ventas online",
+            "value": "+120%"
+          },
+          {
+            "label": "Seguidores ganados",
+            "value": "+2,400"
+          },
+          {
+            "label": "Pedidos/mes",
+            "value": "+60"
+          }
+        ],
+        "features": [
+          "Estrategia de contenidos para redes",
+          "Configuración de WhatsApp Business",
+          "Catálogo digital de productos",
+          "Campañas de Instagram Ads",
+          "Seguimiento mensual de métricas"
+        ],
+        "demoUrl": "",
+        "badge": "Caso real"
+      },
+      {
+        "id": "asesoria-clinica",
+        "title": "Estrategia Online – Clínica Salud Total",
+        "description": "Plan de transformación digital para clínica médica: presencia web, reputación online, Google Ads y automatización de citas.",
+        "tags": [
+          "Salud",
+          "Google Ads",
+          "Reputación"
+        ],
+        "stats": [
+          {
+            "label": "Nuevos pacientes",
+            "value": "+55/mes"
+          },
+          {
+            "label": "Reseñas Google",
+            "value": "4.9 ★"
+          },
+          {
+            "label": "Costo por lead",
+            "value": "-60%"
+          }
+        ],
+        "features": [
+          "Optimización de Google My Business",
+          "Estrategia de Google Ads local",
+          "Plan de gestión de reseñas",
+          "Automatización de recordatorios",
+          "Dashboard de métricas mensual"
+        ],
+        "demoUrl": "",
+        "badge": "Caso real"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demos y casos reales de los servicios de SL Strategic Systems – Arequipa, Perú.">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/demos.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+    <title>Demos – SL Strategic Systems</title>
+</head>
+
+<body class="demos-body">
+
+    <!-- ===== HEADER ===== -->
+    <header id="header" class="site-header">
+        <div class="header-inner">
+            <div class="header-logo">
+                <a href="./index.html" style="display:flex; align-items:center; gap:10px;">
+                    <img src="./public/logo.png" class="logo-img" alt="Logo SL Strategic Systems">
+                    <!-- <span class="logo-text">SL <span class="logo-accent">Strategic</span></span> -->
+                </a>
+            </div>
+            <nav class="desktop-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="./index.html#servicios">Servicios</a></li>
+                    <li><a href="./index.html#como-trabajamos">Cómo trabajamos</a></li>
+                    <li><a href="./index.html#resultados">Testimonios</a></li>
+                    <li><a href="./index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="./index.html#contacto" class="btn-primary" id="header-cta">Asesoría gratuita</a>
+                <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <nav class="mobile-nav" id="mobile-nav" aria-label="Menú móvil">
+            <ul>
+                <li><a href="./index.html#servicios" class="mobile-link">Servicios</a></li>
+                <li><a href="./index.html#como-trabajamos" class="mobile-link">Cómo trabajamos</a></li>
+                <li><a href="./index.html#resultados" class="mobile-link">Testimonios</a></li>
+                <li><a href="./index.html#contacto" class="mobile-link">Contacto</a></li>
+                <li><a href="./index.html#contacto" class="btn-primary mobile-cta">Asesoría gratuita</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="demos-main">
+
+        <!-- ===== BREADCRUMB + HERO ===== -->
+        <section class="demos-hero" id="demos-hero">
+            <div class="section-container">
+                <!-- Breadcrumb -->
+                <nav class="demos-breadcrumb" aria-label="Ruta de navegación">
+                    <a href="./index.html"><i class="ph ph-house"></i> Inicio</a>
+                    <span class="breadcrumb-sep"><i class="ph ph-caret-right"></i></span>
+                    <a href="./index.html#servicios">Servicios</a>
+                    <span class="breadcrumb-sep"><i class="ph ph-caret-right"></i></span>
+                    <span id="breadcrumb-service">Demo</span>
+                </nav>
+
+                <!-- Hero content (se rellena con JS) -->
+                <div class="demos-hero-content">
+                    <div class="demos-hero-badge" id="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span id="hero-tag">Cargando...</span>
+                    </div>
+                    <div class="demos-hero-icon" id="hero-icon">
+                        <i class="ph ph-spinner" id="hero-icon-i"></i>
+                    </div>
+                    <h1 class="demos-hero-title" id="hero-title">Cargando demos…</h1>
+                    <p class="demos-hero-desc" id="hero-desc"></p>
+
+                    <!-- Selector de servicio -->
+                    <div class="demos-service-tabs" id="service-tabs" role="tablist" aria-label="Cambiar servicio">
+                        <!-- Se genera con JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== DEMOS GRID ===== -->
+        <section class="demos-grid-section">
+            <div class="section-container">
+                <!-- Estado: cargando -->
+                <div class="demos-loading" id="demos-loading">
+                    <div class="loading-spinner"></div>
+                    <p>Cargando demos…</p>
+                </div>
+
+                <!-- Estado: error -->
+                <div class="demos-error hidden" id="demos-error">
+                    <i class="ph ph-warning-circle"></i>
+                    <h2>Servicio no encontrado</h2>
+                    <p>El servicio que buscas no existe. Por favor regresa y elige uno de nuestros servicios.</p>
+                    <a href="./index.html#servicios" class="btn-primary">Ver servicios</a>
+                </div>
+
+                <!-- Cards de demos (se generan con JS) -->
+                <div class="demos-cards-grid hidden" id="demos-grid">
+                    <!-- JS inserta aquí -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA FINAL ===== -->
+        <section class="demos-cta-section">
+            <div class="section-container">
+                <div class="demos-cta-card">
+                    <div class="demos-cta-left">
+                        <p class="section-label">¿Te interesa?</p>
+                        <h2 class="demos-cta-title">¿Quieres algo así para tu negocio<span class="text-highlight"> en
+                                Arequipa</span>?</h2>
+                        <p class="demos-cta-desc">Agenda una reunión gratuita y te mostramos cómo podemos adaptar esta
+                            solución a tu empresa, con precios claros y tiempos reales.</p>
+                    </div>
+                    <div class="demos-cta-actions">
+                        <a href="./index.html#contacto" class="btn-primary btn-lg" id="demos-cta-btn">
+                            Agendar reunión gratuita <i class="ph ph-arrow-right"></i>
+                        </a>
+                        <a href="./index.html#servicios" class="btn-ghost" id="demos-back-btn">
+                            <i class="ph ph-arrow-left"></i> Ver otros servicios
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER (simple) ===== -->
+    <footer class="footer-bottom" style="padding: 24px 0;">
+        <div class="footer-bottom-inner">
+            <p class="footer-copyright">
+                &copy; 2026 <strong>SL Strategic Systems</strong>. Todos los derechos reservados. Arequipa, Perú.
+            </p>
+            <div class="footer-bottom-links">
+                <a href="#">Política de privacidad</a>
+                <span>·</span>
+                <a href="#">Términos de uso</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/demos.js"></script>
+</body>
+
+</html>
